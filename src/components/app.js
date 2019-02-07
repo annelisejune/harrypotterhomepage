@@ -4,53 +4,53 @@ export default class App extends Component {
   render() {
     return (
       <div className='app'>
-        <div class="page-header">
-          <div class="left-column">
-              <div class="nav-icon">
-                  <i class="fas fa-bolt"></i>
+        <div className="page-header">
+          <div className="left-column">
+              <div className="nav-icon">
+                  <i className="fas fa-bolt"></i>
               </div>
           </div>
 
-          <div class="center-column">
-              <div class="hp-logo"> 
+          <div className="center-column">
+              <div className="hp-logo"> 
                   <img src="https://upload.wikimedia.org/wikipedia/commons/6/6e/Harry_Potter_wordmark.svg" alt="Harry Potter Title" />
               </div>
 
-              <div class="nav-links-wrapper">
-                  <div class="nav-link">
+              <div className="nav-links-wrapper">
+                  <div className="nav-link">
                       <a href="#">Gryffindor</a>
                   </div>
 
-                  <div class="nav-link">
+                  <div className="nav-link">
                       <a href="#">Ravenclaw</a>
                   </div>
 
-                  <div class="nav-link">
+                  <div className="nav-link">
                       <a href="#">Hogwarts</a> 
                   </div>
                 
-                  <div class="nav-link">
+                  <div className="nav-link">
                       <a href="#">Hufflepuff</a>
                   </div>
 
-                  <div class="nav-link">
+                  <div className="nav-link">
                       <a href="#">Slytherin</a>
                   </div>
               </div>
           </div>
 
 
-          <div class="right-column">
-              <div class="nav-icon">
-                  <i class="fas fa-hat-wizard"></i>
+          <div className="right-column">
+              <div className="nav-icon">
+                  <i className="fas fa-hat-wizard"></i>
               </div>
           </div>
         </div>    
 
-        <div class="page-content">
-          <div class="content-columns">
-            <div class="content-wrapper">
-              <div class="page-content-header">
+        <div className="page-content">
+          <div className="content-columns">
+            <div className="content-wrapper">
+              <div className="page-content-header">
                 <h1>
                   Welcome to the Wizarding World
                 </h1>
@@ -75,29 +75,29 @@ export default class App extends Component {
               </p>
             </div>
                 
-            <div class="page-content-grid">
-              <div class="grid-wrapper">
-                <div class="grid-quote">
+            <div className="page-content-grid">
+              <div className="grid-wrapper">
+                <div className="grid-quote">
                   <p>"The wand chooses</p>
                   <h3>The wizard, Mr. Potter...</h3>
                   <p>That much has always been clear to those of us who study Wandlore" - Ollivander</p>
                 </div>
                 
-                <div class="grid-image">
+                <div className="grid-image">
                   <img src="https://c1-ebgames.eb-cdn.com.au/merchandising/images/packshots/4d02da1d868b4e09abf1288f5cbd0e81_Large.png"></img>
                 </div>
               </div>
 
-              <div class="page-content-closer">
+              <div className="page-content-closer">
                 <h2>~ Have a Magical Evening ~</h2>
               </div>
             </div>
           </div>
         </div>
           
-        <div class="feature-section">
-          <div class="feature-section-bg">
-            <div class="feature-images">
+        <div className="feature-section">
+          <div className="feature-section-bg">
+            <div className="feature-images">
               <img src="https://timedotcom.files.wordpress.com/2016/07/harry-potter1.jpg?quality=85" alt="image"></img>
               <img src="https://www.narcity.com/u/2018/11/01/7fb88a9188d3fe2dd1a4f19c7f4f010af2a246a5.png_1200x630.png" alt="image"></img>
               <img src="https://pmcvariety.files.wordpress.com/2016/10/harry-potter-and-the-sorcerers-stone.jpg?w=1000&h=563&crop=1" alt="image"></img>
@@ -106,43 +106,43 @@ export default class App extends Component {
         </div>
 
                 
-        <div class="footer">
-          <div class="nav-links-wrapper">
-            <div class="footer-logo">
+        <div className="footer">
+          <div className="nav-links-wrapper">
+            <div className="footer-logo">
                 <img src="https://i.pinimg.com/originals/2d/0b/32/2d0b32de425b8b06be204f148d146849.png" alt="footerlogo" />
             </div>
 
-            <div class="nav-links">
-              <div class="nav-link">
+            <div className="nav-links">
+              <div className="nav-link">
                 <a href="#">Gryffindor</a>
               </div>
 
-              <div class="nav-link">
+              <div className="nav-link">
                 <a href="#">Slytherin</a>
               </div>
 
-              <div class="nav-link">
+              <div className="nav-link">
                 <a href="#">Ravenclaw</a>
               </div>
 
-              <div class="nav-link">
+              <div className="nav-link">
                 <a href="#">Hufflepuff</a>
               </div>
             </div>
           
-            <div class="nav-links">
-              <div class="nav-link">
+            <div className="nav-links">
+              <div className="nav-link">
                 <a href="#">Hogsmeade</a>
               </div>
             
-              <div class="nav-link">
+              <div className="nav-link">
                 <a href="#">Hogwarts</a>
               </div>
             </div>
 
-            <div class="footer-closer">
-              <div class="footer-icon">
-                <i class="fas fa-hat-wizard"></i>
+            <div className="footer-closer">
+              <div className="footer-icon">
+                <i className="fas fa-hat-wizard"></i>
               </div>
               
               <p>

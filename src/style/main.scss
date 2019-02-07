@@ -1,0 +1,227 @@
+// font-family: 'Press Start 2P', cursive;    - APPLY TO PAGE-CONTENT-HEADER
+$main-color: #e6b800;
+$main-color2: #f6f6f6;
+@mixin icons ($icon-size: 2rem){
+  font-size: $icon-size;
+  color: black;
+  transition: 0.5s;
+  padding: 13px 23px;
+  &:hover {
+    color: $main-color2;
+  }
+}
+@mixin navlinks {
+      color: black;
+      text-decoration: none;
+      letter-spacing: 1.5px;
+      transition: 0.5s;
+      font-size: 1.13rem;
+      &:hover {
+        color: $main-color2;
+      }
+}
+
+
+body {
+  background-color: $main-color;  
+}
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 150px;
+ 
+  .nav-icon {
+    @include icons;
+  }
+  
+    .hp-logo img {
+      height: 200px;
+    }
+  
+  .center-column {
+    display: flex;
+    flex-direction: column;
+  
+  .nav-links-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 43px;
+    
+    .nav-link a {
+      @include navlinks;
+    }
+   }
+  } 
+ } 
+
+.page-content {
+  background-color: #f6f6f6;
+  border: 10px double DarkBlue;
+  padding: 33px 77px;
+  margin-left: 175px;
+  margin-right: 175px;
+  display: flex;
+  justify-content: center;
+  box-shadow: 20px -26px 79px -8px rgba(0, 0, 0, 0.58);
+  
+  .content-columns {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .content-wrapper {
+    width: 1000px;
+    margin-top: 55px;
+    margin-bottom: 50px;
+  }
+  
+  .content-wrapper p {
+    column-count: 3;
+    column-gap: 55px;
+    font-size: 1.13rem;
+    line-height: 21px;
+  }
+  
+  .page-content-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .page-content-header h1 {
+    color: $main-color;
+    font-family: 'Megrim', cursive;
+    padding: 10px 35px 5px 35px;
+    font-size: 3.3rem;
+    display: flex;
+    justify-content: center;
+    transition: 0.5s;
+  }
+}
+  
+  .page-content-header img {
+    width:100%;
+    margin-top: -80px;
+    margin-bottom: 45px;
+  }
+  
+  .page-content-closer {
+    display: flex;
+    justify-content: center;
+    font-family: 'Megrim', sans serif;
+    padding-top: 25px;
+    font-size: 2.3rem;
+    color: $main-color;
+    transition: 0.5s;
+    &:hover {
+      letter-spacing: 0.15rem;
+      color: DarkBlue;
+    }
+  }
+
+.grid-wrapper {
+      display: grid;
+      grid-template-columns: 4fr 2fr;
+      grid-gap: 15px;
+  .grid-quote p {
+    font-size: 1.7rem;
+    color: DarkBlue;
+    line-height: 60px;
+    text-align: center;
+   }
+  
+  .grid-quote h3 {
+    font-size: 2.7rem;
+    color: DarkBlue;
+    line-height: 40px;
+    text-align: center;
+  }
+  
+  .grid-image img {
+    margin-top: 45px;
+    width: 100%;
+  }
+}
+
+.feature-section {
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-top: 120px;
+  border-top: 15px double $main-color2;
+  
+  .feature-section-bg {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+  }
+ }
+  .feature-images img {
+    height: 250px;
+    padding: 20px;
+  }
+ 
+
+.footer {
+  margin: -10px;
+  padding: 75px 200px 0px 200px;
+  box-shadow: inset 5px 26px 79px -8px rgba(0, 0, 0, 0.58);
+  
+  .nav-links-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  .footer-logo img {
+    height: 100px;
+    padding-bottom: 35px;
+  }
+  
+  .nav-links {
+    display: flex;
+    justify-content: center;
+      
+    .nav-link {
+      padding: 0px 10px 10px 10px;
+    }
+  
+    
+  .nav-link a {
+    @include navlinks;
+   }
+  }
+    
+ .footer-closer {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-size: 0.8rem;
+      margin-top: 20px;
+   .footer-icon {
+     @include icons(7rem);
+   }
+  }
+ }
+}
+  
+
+
+@media (max-width: 1470px) {
+  .feature-images img {
+    height: 200px;
+    padding: 20px;
+  }
+}
+
+@media (max-width: 1190px) {
+  .feature-images img {
+    height: 150px;
+    padding: 20px;
+  }
+}
